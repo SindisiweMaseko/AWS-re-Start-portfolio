@@ -6,7 +6,7 @@ Welcome to my AWS re/Start portfolio. This repository documents my hands-on labs
 ##  About Me
 Cloud & Cybersecurity Enthusiast | Exploring AI & DevOps  
 Learning to build secure, scalable cloud solutions using AWS tools and services.  
-“**Sindisiwe Angel**”
+
 
 ##  Program Overview
 AWS re/Start covers:
