@@ -1,16 +1,12 @@
 # AWS-re-Start-portfolio
-My AWS re/Start portfolio documenting labs, projects, notes, and progress
 
 Welcome to my AWS re/Start portfolio. This repository documents my hands-on labs, projects, notes, and progress as I build cloud and cybersecurity skills through the AWS re/Start program.
 
-##  About Me
 ## About Me  
 Cloud & Cybersecurity Enthusiast | Exploring AI & DevOps  
 Building secure, scalable cloud solutions using AWS tools and services   
 Currently enrolled in AWS re/Start Program
   
-
-
 ##  Program Overview
 AWS re/Start covers:
 - Cloud fundamentals (EC2, S3, IAM, VPC, Lambda, CloudWatch)
@@ -22,7 +18,7 @@ AWS re/Start covers:
 - Git and GitHub for version control
 
 ##  Repository Structure
-AWS-re-Start-portfolio/
+AWS-re-Start-portfolio
 ├── Labs/
 │   ├── EC2_Lab.md
 │   ├── IAM_Lab.md
