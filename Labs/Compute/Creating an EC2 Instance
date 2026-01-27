@@ -1,1 +1,48 @@
+# Lab: Launching and Managing an EC2 Instance  
+This lab demonstrates how to launch, configure, secure, monitor, resize, and terminate an Amazon EC2 instance. It includes enabling termination protection and deploying a simple web server using a User Data script.
+
+---
+
+## 🧩 Task 1: Launch an EC2 Instance
+
+### 1. Open EC2 Console  
+- Navigate to **Services → EC2 → EC2 Dashboard**  
+- Select **Launch instance**
+
+### 2. Name Your Instance  
+- Name: **Web Server**
+
+### 3. Choose an AMI  
+- Keep default: **Amazon Linux 2023**
+
+### 4. Choose Instance Type  
+- Select: **t3.micro**  
+  - 2 vCPU  
+  - 1 GiB RAM
+
+### 5. Key Pair  
+- Select: **Proceed without a key pair** (lab requirement)
+
+### 6. Configure Network Settings  
+- VPC: **Lab VPC**  
+- Security Group:  
+  - Name: *Web Server security group*  
+  - Description: *Security group for my web server*  
+- Remove SSH inbound rule (improves security)
+
+### 7. Storage  
+- Keep default: **8 GiB EBS**
+
+### 8. Advanced Details  
+- Enable **Termination Protection**  
+- Add User Data script:
+
+```bash
+#!/bin/bash
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html
+
+
 
