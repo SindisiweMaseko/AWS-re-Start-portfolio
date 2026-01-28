@@ -9,13 +9,6 @@ This lab demonstrates how to launch, configure, secure, monitor, resize, and ter
 ### 3. Choose an AMI  
 - Keep default: **Amazon Linux 2023**
 
-
-
-
-
-"C:\Users\sindi\Downloads\Screenshot_28-1-2026_21530_us-west-2.console.aws.amazon.com.jpeg"
-
-
 ### 4. Choose Instance Type  
 - Select: **t3.micro**  
   - 2 vCPU  
