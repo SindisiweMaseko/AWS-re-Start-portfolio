@@ -113,12 +113,15 @@ ________________________________________
 <img width="1893" height="967" alt="17" src="https://github.com/user-attachments/assets/99905753-4de6-4372-bef8-218fa555633c" />
 
 ________________________________________
+
 # Benefits of Hosting AHKU Cafe on Amazon S3
-•	Low Cost: Pay only for storage and usage
-•	High Availability: 99.99% availability
-•	Scalability: Automatically handles traffic growth
-•	No Server Management: AWS fully manages the infrastructure
-•	Security: Supports encryption and IAM integration
+
+- **Low Cost:** Pay only for storage and usage  
+- **High Availability:** 99.99% availability  
+- **Scalability:** Automatically handles traffic growth  
+- **No Server Management:** AWS fully manages the infrastructure  
+- **Security:** Supports encryption and IAM integration
+
 ________________________________________
 # Conclusion
 By hosting the AHKU Cafe website on Amazon S3, the business gains a reliable, scalable, and affordable online presence. This solution removes the need for on-premises servers while improving accessibility and customer engagement.
