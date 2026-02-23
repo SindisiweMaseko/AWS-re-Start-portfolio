@@ -12,8 +12,8 @@ Completed the AWS SimuLearn lab focused on implementing secure IAM access contro
 
 ## Key Outcomes
 - Allowed read-only access to EC2 and RDS
-- Prevented destructive actions (e.g., instance termination)
-- Strengthened understanding of IAM groups, policies, and secure access design in AWS
+- Prevented destructive actions by 'instance termination'
+- Strengthened understanding of IAM groups, policies and secure access design in AWS
 
 ![Screenshot_23-2-2026_102550_](https://github.com/user-attachments/assets/ee08089a-cf48-4193-88e1-834f25c0c367)
 
