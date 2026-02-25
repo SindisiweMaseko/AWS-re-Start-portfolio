@@ -27,30 +27,25 @@ AWS re/Start covers:
 
 ##  Repository Structure
 
-#### 1. Readme
-- Overview of my cloud learning journey
-- About Me (career goals, AWS focus)
-- Certifications & badges
-- Hands‑on labs summary
+### 1.📘 Readme
 
-#### 2. Labs
-- Compute  
-  - EC2 basics  
-- Databases  
-  - DynamoDB  
-- Networking  
-  - VPCs,  
-- Python  
-  - Scripts for automation and cloud integration  
+  ### 🧪 Labs
+- 🖥️ Compute
+- 📊 Databases
+- 👾 Linux
+- 🌐 Networking
+- 🔒 Security
+- 💾 Storage
 
-#### 3. Certifications & Badges
-- AWS Cloud Quest: Cloud Practitioner  
-- SimuLearn Labs   
+### 🚀 Projects
+- 🏗️ design_3d_e_commerce_architecture
+- 🌐 static_website
 
-
-#### 4. Projects
-- Static Website
-  
+### 🎓 Certs-Badges
+- 🔒 core security concepts-**Simu-Learn**
+- 📊 Databases in practice-**Simu-Learn**
+- 📂 file systems in the cloud-**Simu-Learn**
+- 🌐 networking concepts-**Simu-Learn**
 
 ## 🏅 AWS Cloud Quest: Cloud Practitioner
 
