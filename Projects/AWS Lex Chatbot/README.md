@@ -132,7 +132,6 @@ Through this project I learned:
 
 - How AWS services can be integrated into a chatbot solution
 
-- How to document cloud projects for GitHub portfolios
 
 # 🔮 Future Improvements
 
