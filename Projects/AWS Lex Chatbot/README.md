@@ -50,17 +50,6 @@ It processes user input and determines the correct response based on intents and
 
 Lambda can be used to extend chatbot logic, validate quiz answers, and control conversation flow.
 
-###  🗄 Amazon DynamoDB
-
-DynamoDB can store quiz questions, correct answers, and user scores.
-
-### 📊 Amazon CloudWatch
-
-CloudWatch can monitor chatbot logs and track conversation events.
-
-### 📦 Amazon S3
-
-S3 can store project documentation, screenshots, and architecture diagrams.
 
 # ✨ Features
 
