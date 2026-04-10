@@ -1,0 +1,91 @@
+AWS S3 Quiz Chatbot with Amazon Lex 
+
+I built an interactive knowledge-check chatbot for Cloud Learners Inc. using Amazon Lex V2. The bot quizzes users on Amazon S3 with multiple‑choice questions and provides instant feedback. Users can click answer buttons instead of typing, making the experience engaging and intuitive. 
+Step‑by‑Step Implementation
+
+I signed in to the AWS Management Console, searched and opened Amazon Lex. 
+  
+I clicked Create bot, then chose "Create a blank bot". I named my bot 
+Lex_QuizBot  
+ 
+ 
+Left the following in their default settings: 
+IAM permissions: "Create a role with basic Amazon Lex permissions" 
+COPPA: "No" 
+Then I clicked Next  
+  
+Selected English (US) as the language, and clicked Done 
+  
+  
+Once my Bot was created, I skipped Conversation Flow and navigated to Intent Details 
+  
+To create my intent I named it : S3 Quiz and in the gave the same title for the Display Name. 
+  
+Navigated down to Sample Utterances, where i entered the following phrases to trigger the Quiz: 
+●	"Start quiz" 
+●	"Quiz me on S3" 
+●	"I'm ready for the quiz" 
+●	"Take S3 quiz" 
+●	"Test my S3 knowledge" 
+  
+Scrolled down and saved my intent. 
+On the left pane clicked on Back to intents list  
+  
+I went back to the pane and clicked Slot types. 
+  
+I created a custom slot type to define the possible answer choices for the quiz questions. This restricts user input to valid options (A, B, or C) and allows me to use synonyms so Lex can understand variations like "Simple Storage Service" as equivalent to "A". 
+I clicked Add slot type, named it S3QuizOptions 
+  
+  
+For Slot value resolution I selected Restrict to slot values, which restricted the user to only pick from the predefined options.  
+Under slot type values i entered my answer options for the first question of the quiz 
+Value: A → : Simple Storage Service 
+Value: B → : Secure Server Storage 
+Value: C → : Smart Storage System 
+  
+ 
+Then saved slot type. 
+Clicked on Slot Types on the left pane and navigated back to my intent 
+After clicking back on my intent i scrolled down to Slots 
+  
+ I clicked Add slot and named it QuestionOneAnswer 
+For Slot Type i selected the one i created “S3QuizOptions” 
+In the Prompt section. I entered the prompt message: S3 Quiz Question 1 
+Then I Clicked on Advanced Options
+ 
+Scrolled down to Scrolled down to Slot Prompts clicked on the Prompt and selected More prompt options. Navigated down to Slot Prompts again and clicked on  Add, selected Add Card Group.  
+  
+  
+Under Card Group, I filled in: 
+Title: What Does S3 Stand For? 
+Subtitle: Please Select A, B or C 
+For Button 1, A) Simple Storage Service and filled in A as the value. Did the same for B and C  
+  
+  
+After filling in the response card, I clicked the Add button at the bottom of the configuration panel to save the prompt settings. And further clicked Save Slot I scrolled to the Closing response section and toggled Active to ON. 
+Navigated down to Conditional Branching renamed branch 1to Correct 
+Answer 
+And under Condition typed {QuestionOneAnswer} = "A" 
+For Response typed in Correct! S3 stands for Simple Storage Service 
+  
+ 
+Clicked on add branch and renamed it Incorrect Answer  
+Under Condition typed QuestionOneAnswer} = "B"   
+And for Response typed in Incorrect. The correct answer is Simple Storage Service. 
+ 
+  
+ 
+ 
+Beta Testing  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
