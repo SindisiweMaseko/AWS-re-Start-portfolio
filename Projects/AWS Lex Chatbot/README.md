@@ -19,7 +19,7 @@ This project implements a cloud-native conversational chatbot using AWS services
 ## 🏗 Architecture
 
 ### Serverless Architecture Diagram
-<img width="1024" height="558" alt="image" src="https://github.com/user-attachments/assets/ab2c12ce-8ad4-450d-b969-125528c979ef" />
+<img width="1600" height="871" alt="image" src="https://github.com/user-attachments/assets/acfd64ee-2be7-43f0-a4a4-94e582c03e32" />
 
 
 ### Architecture Flow
