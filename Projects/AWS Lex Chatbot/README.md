@@ -19,7 +19,8 @@ This project implements a cloud-native conversational chatbot using AWS services
 ## 🏗 Architecture
 
 ### Serverless Architecture Diagram
-<img width="1024" height="682" alt="image" src="https://github.com/user-attachments/assets/0e80d959-c857-41ed-a32a-9f7b9d0104d1" />
+
+<img width="1024" height="558" alt="image" src="https://github.com/user-attachments/assets/ab2c12ce-8ad4-450d-b969-125528c979ef" />
 
 
 ### Architecture Flow
@@ -68,7 +69,7 @@ This project implements a cloud-native conversational chatbot using AWS services
 ---
 
 ## 🧪 Testing & Validation
-The chatbot underwent rigorous testing to ensure production-grade reliability:
+The chatbot underwent testing to ensure production-grade reliability:
 
 * **Intent Recognition:** Verified multiple utterance variations for "Quiz" and "Help" triggers to ensure high NLU accuracy.
 * **Logic Flow:** Confirmed **AWS Lambda** correctly identifies right/wrong answers and maintains session state.
